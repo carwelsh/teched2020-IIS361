@@ -6,62 +6,62 @@ In this exercise, we will create a new SAP Fiori elements project In SAP Busines
 Exercise 1.1 Using the UI Generator
 -----------------------------------
 
-![](media/image1.png)
+![](media/image1a.png)
 
 (1) In SAP Business Application Studio, open **File** menu.
 
-![](media/image2.png)
+![](media/image2a.png)
 
 (2) Click **New Project from Template**.
 
-![](media/image3.png)
+![](media/image3a.png)
 
-(3) Click **SAP Fiori elements application**.
+(3) Click **SAP Fiori application**.
 
-![](media/image4.png)
+![](media/image4a.png)
 
-(4) Click **Next**.
+(4) Click **Start**.
 
-![](media/image5.png)
+![](media/image5a.png)
 
 (5) In the template selection, click on the tile **Analytical List Page**.
 
-![](media/image6.png)
+![](media/image6a.png)
 
 (6) Click **Next**.
 
-![](media/image7.png)
+![](media/image7a.png)
 
 (7) In the step **Datasource and Service Selection**, select **Upload a Metadata Document**.
 
-![](media/image8.png)
+![](media/image8a.png)
 
 (8) Click **Browse for Files** icon ![](media/image9.png) to select the metadata file from the teched sample scenario folder.
 
-![](media/image10.png)
+![](media/image9a.png)
 
 (9) Open the folder hierarchy path
 **home-\>user-\>projects-\>teched2020-IIS361-\>exercises-\>ex1-\>resources** and select **metadata.xml**.
 
 (10) Click **Open**.
 
-![](media/image11.png)
+![](media/image10a.png)
 
 (11) Click **Next**.
 
-![](media/image12.png)
+![](media/image11a.png)
 
 (12) In the **Main entity** drop down, select **Z_SEPMRA_SO_SALESORDERANALYSIS** as main entity. The properties of this entity will be used to display data on Analytical List Report page.
 
 (13) Leave value for drop down **Navigation entity** to **None** since you want to show data of a single instance of the main entity on the object page, too.
 
-Select **None** as a table type to accept the default one.
+Leave value for drop down **Table type** to **Analytical**.
 
-![](media/image13.png)
+![](media/image12a.png)
 
 (14) Click **Next**.
 
-![](media/image14.png)
+![](media/image13a.png)
 
 (15) Enter **salesorderanalysis** as module name
 
@@ -69,7 +69,7 @@ Select **None** as a table type to accept the default one.
 
 (17) Enter **soa** as a namespace.
 
-![](media/image15.png)
+![](media/image14a.png)
 
 (18) Click **Finish**. The project gets generated.
 
@@ -80,7 +80,7 @@ As we are working with the mock server in this exercise, you now need to import 
 
 When you choose to connect to an OData service or SAP system in step (7), this step is not needed.
 
-![](media/image16.png)
+![](media/image15a.png)
 
 (19) Expand the folder **teched2020-IIS361-\>exercises-\>ex1-\>resources**.
 
